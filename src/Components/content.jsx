@@ -1,10 +1,9 @@
-import { Card } from './card';
+import { List } from './list';
 
 export function Content() {
     return (
-        <main className="flex justify-center items-center bg-blue-800 h-[700px]">
-            <h1 className='text-[#f0f8ff]'>Content</h1>
-            <Card/>
+        <main className="flex justify-center bg-[#141414] h-[700px] p-8">
+            <List/>
         </main>
     )
 }
