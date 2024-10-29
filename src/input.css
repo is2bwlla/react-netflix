@@ -1,0 +1,3 @@
+@tailwind base;  /* importando os recursos do tailwind */
+@tailwind components; /* importando os componentes do tailwind */
+@tailwind utilities; /* importando as utilidades do tailwind */

@@ -1,9 +1,7 @@
-import styles from './header.module.css';
-
 export function Header() {
     return (
-        <header className={styles.container}>
-            <h1>bellix</h1>
+        <header className="flex justify-center items-center bg-[#000] h-[150px]">
+            <h1 className='font-arial text-red-600 text-7xl font-bold'>isabellix</h1>
         </header>
     )
 }
